@@ -17,16 +17,24 @@ This repository contains a Flask web application that allows users to query hist
 ## Installation and Setup
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/Stock-Data-Analyzer.git
-   cd Stock-Data-Analyzer
+   git clone https://github.com/HussainNasirKhan/Stock-Data-Analyzer-with-Llama3-Integration.git
+   cd Stock-Data-Analyzer-with-Llama3-Integration
 2. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
-3. **Run the Application**
+3. **Setting Up Ollama**
+
+- Download Ollama from the following link: [Ollama Download](https://ollama.com/)
+
+- Install the Llama3 model on your local system:
+    ```bash
+    ollama run llama3
+    ```
+4. **Run the Application**
+- Start the Flask server:
    ```bash
    python app.py
-4. **Run the Application**
-   Open your web browser and navigate to http://127.0.0.1:5000/
+- Open your web browser and navigate to http://127.0.0.1:5000/
 
 ## Usage
 -  Enter the desired stock ticker symbol in the input field on the homepage.
