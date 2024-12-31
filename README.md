@@ -2,8 +2,6 @@
 
 This repository contains a Flask web application that allows users to query historical stock data for any ticker symbol, visualize the data over the last 5 years, and generate a detailed description using the Llama3 language model. The application is built using `yfinance` for data retrieval, `matplotlib` for plotting, and `langchain_community.llms` for generating descriptions.
 
-https://github.com/user-attachments/assets/aea64060-d901-4975-8c1f-3ae773b83aa4
-
 ## Key Features
 - **Fetch Historical Stock Data**: Retrieve and analyze stock data for the past 5 years using the Yahoo Finance API.
 - **Visualize Stock Data**: Generate and display a line chart of the stock's closing prices over the selected period.
